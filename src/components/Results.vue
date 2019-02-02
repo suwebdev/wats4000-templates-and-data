@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import apiresults from '../apiresults.js'
+import apiresults from '@/assets/apiresults.js'
 export default {
   name: 'results',
   data () {
