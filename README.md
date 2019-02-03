@@ -27,7 +27,7 @@ template in the `Results.vue` file in order to accomplish these goals. You will
 use various directives to loop through parts of the data and/or conditionals to
 modulate the display.
 
-Be sure to look at the `src/apiresults.js` file in order to see the JSON object
+Be sure to look at the `src/assets/apiresults.js` file in order to see the JSON object
 that you will be working with for this project. This is a captured response from
 TMDb, and you can see more about the different data points on the
 documentation page for the [TMDb Discover API endpoint](https://developers.themoviedb.org/3/discover).
@@ -56,6 +56,7 @@ assignment.
     * Display the `vote_average` and `vote_count` in the proper locations
 * Use another loop to display a genre list with each movie
 * Link the title back to the proper movie info page on TheMovieDatabase.org using the base URL (`https://www.themoviedb.org/movie/`) and the movie ID
+* Deploy to gh-pages
 
 ## Stretch Goals
 * Figure out how to apply the "backdrop" image in some appealing way as a background for each movie
@@ -63,7 +64,7 @@ assignment.
 * Create a better simulation of pagination than the existing metadata at the top of the page
 * Alter the base URL of the poster images to pull larger or smaller images (be sure to keep them in proper scale)
 * Enhance some of the styles to give this project a nicer visual appeal
-* Modify the template to make the ratings information be displayed as a percentage bar (or as a circle diagram, or something else) using a computed value
+* Modify the template to make the ratings information be displayed as a percentage bar (or as a circle diagram, stars, or something else) using a computed value
 
 ## Build Setup
 This project was created with the Vue-CLI. In order to get it running, use the following commands.
@@ -73,16 +74,14 @@ This project was created with the Vue-CLI. In order to get it running, use the f
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run serve
 
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how Vue works, check out the [guide](https://cli.vuejs.org/guide/) and [docs for vue-loader](https://cli.vuejs.org/config/#css-loaderoptions).
 
 ## Credits
 This project uses data originally retreived from [The Movie Database](https://www.themoviedb.org). Their API is easy to use and has liberal terms, making it fun for education and experimentation. You can see how this data is used on their site by looking up [movies like this](https://www.themoviedb.org/movie/335984-blade-runner-2049).

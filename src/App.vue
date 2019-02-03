@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-    <hello></hello>
-    <!-- <results></results> -->
+    <results></results>
   </div>
 </template>
 
 <script>
-// import Results from '@/components/Results.vue'
-import Hello from '@/components/HelloWorld.vue'
-
-
+import Results from '@/components/Results'
 export default {
   name: 'app',
   components: {
-    // Results
-    Hello
+    Results
   }
 }
 </script>
