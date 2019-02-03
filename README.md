@@ -17,7 +17,7 @@ API request).
 In order to complete this project, you will need to complete the Basic
 Requirements outlined below. Additional help and information about how to
 complete the project is available in [Section 7 of the Practical JavaScript 2:
-Building Applications](https://shawnr.gitbooks.io/practical-javascript-2-building-applications/working-with-templates/) book. Please refer to the text for background, context,
+Building Applications](https://suwebdev.github.io/WATS-4000-gitbook/working-with-templates/) book. Please refer to the text for background, context,
 and detailed instructions.
 
 For the most part, the requirements ask you to fill the provided template with
