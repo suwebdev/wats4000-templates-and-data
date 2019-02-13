@@ -61,7 +61,6 @@
 <script>
 import apiresults from "../assets/apiresults.js";
 export default {
-  name: "results",
   data() {
     return apiresults;
   }
